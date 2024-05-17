@@ -22,8 +22,8 @@
       if(String(snum).length === 1 ){
         snum = "0" + snum;
       }
-      document.getElementById("timeDate").innerHTML = "本站居然运行了&nbsp"+dnum+"&nbsp天";
-      document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
+      document.getElementById("timeDate").innerHTML = "This site has actually been running for &nbsp"+dnum+"&nbsp days";
+      document.getElementById("times").innerHTML = hnum + "&nbsp hours &nbsp" + mnum + "&nbsp minutes &nbsp" + snum + "&nbsp second";
     }
   
     update();
@@ -71,12 +71,12 @@ function delay() {
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/fluid.png");
-         document.title = '看不到我~';
+         document.title = 'Can\'t see me ~';
          clearTimeout(titleTime);
      }
      else {
          $('[rel="icon"]').attr('href', "/img/1.png");
-         document.title = '欢迎回来~' + OriginTitle;
+         document.title = 'Welcome back ~' + OriginTitle;
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
          }, 2000);
