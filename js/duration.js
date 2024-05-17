@@ -34,7 +34,7 @@
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
         var a = new Array
-        ("TuT", "(　ﾟ∀ﾟ) ﾉ♡", "ヽ(`Д´)ノ", "(☍﹏⁰)", "( ´•̥×•̥` )", "ΩДΩ", "(・ω・)", "ヾ(´︶`*)ﾉ♬", "(❀╹◡╹)");
+        ("リーチ", "	四暗刻", "緑一色", "九蓮宝燈", "国士無双", "大三元", "字一色", "断幺九", "一発");
         var $i = $("<span/>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
@@ -45,7 +45,7 @@ jQuery(document).ready(function($) {
             "left": x,
             "position": "absolute",
             "font-weight": "bold",
-            "color": "#FF0000"
+            "color": "#959dc3"
         });
         $("body").append($i);
         $i.animate({
