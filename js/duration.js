@@ -22,8 +22,8 @@
       if(String(snum).length === 1 ){
         snum = "0" + snum;
       }
-      document.getElementById("timeDate").innerHTML = "This site has actually been running for &nbsp"+dnum+"&nbsp days";
-      document.getElementById("times").innerHTML = hnum + "&nbsp hours &nbsp" + mnum + "&nbsp minutes &nbsp" + snum + "&nbsp second";
+      document.getElementById("timeDate").innerHTML = "This site has actually been running for&nbsp"+dnum+"&nbspdays";
+      document.getElementById("times").innerHTML = hnum + "&nbsphours&nbsp" + mnum + "&nbspminutes&nbsp" + snum + "&nbspsecond";
     }
   
     update();
